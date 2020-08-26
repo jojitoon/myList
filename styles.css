@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  padding: 15px 30px;
+  margin: 0;
+  font-size: 18px;
+  border: 1px solid teal;
+}
+
+input[type="button"],
+button {
+  text-transform: uppercase;
+  margin: 0;
+  background: teal;
+  color: #fff;
+  border: 1px solid teal;
+  cursor: pointer;
+}
+
+input:active,
+button:active {
+  transform: scale(1.1);
+}
+
+ul {
+  list-style: none;
+  padding: 20px 5px;
+  width: 100%;
+  max-width: 400px;
+}
+
+li {
+  padding: 10px 30px;
+  border-bottom: 1px solid teal;
+  cursor: pointer;
+  font-size: 24px;
+}
+li:hover {
+  background: #eee;
+}
+li.finish {
+  text-decoration: line-through;
+  background: teal;
+  color: #fff;
+  border-color: white;
+}
+
+button {
+  padding: 10px 30px;
+  margin-top: 20px;
+}
